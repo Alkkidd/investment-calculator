@@ -1,0 +1,31 @@
+.results-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  #results {
+    width: 80%;
+    border-collapse: collapse;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  #results th, #results td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #results th {
+    background-color: #f2f2f2;
+    color: black;
+  }
+  
+  #results tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  #results tr:hover {
+    background-color: #f1f1f1;
+  }
+  
